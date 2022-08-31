@@ -1,0 +1,23 @@
+{
+  "id": "3445168",
+  "name": "课设1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4347578",
+      "name": "icon_保存",
+      "font_class": "icon_baocun",
+      "unicode": "eb8e",
+      "unicode_decimal": 60302
+    },
+    {
+      "icon_id": "16733973",
+      "name": "return",
+      "font_class": "return1x",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    }
+  ]
+}

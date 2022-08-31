@@ -1,0 +1,34 @@
+package com.zj.exception;
+
+/**
+ * 系统异常
+ * 自定义异常处理器，用于封装异常信息，对异常进行分类
+ */
+public class SystemException extends RuntimeException{
+    private Integer code;
+
+    public Integer getCode() {
+        return code;
+    }
+
+    public void setCode(Integer code) {
+        this.code = code;
+    }
+
+    public SystemException(Integer code, String message) {
+        super(message);
+        this.code = code;
+    }
+
+    /**
+     *
+     * @param code
+     * @param message
+     * @param cause 异常原因
+     */
+    public SystemException(Integer code, String message, Throwable cause) {
+        super(message, cause);
+        this.code = code;
+    }
+
+}

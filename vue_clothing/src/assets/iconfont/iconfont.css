@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3445168 */
+  src: url('iconfont.eot?t=1654134465225'); /* IE9 */
+  src: url('iconfont.eot?t=1654134465225#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1654134465225') format('woff2'),
+       url('iconfont.woff?t=1654134465225') format('woff'),
+       url('iconfont.ttf?t=1654134465225') format('truetype'),
+       url('iconfont.svg?t=1654134465225#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_baocun:before {
+  content: "\eb8e";
+}
+
+.icon-return1x:before {
+  content: "\e656";
+}
+
